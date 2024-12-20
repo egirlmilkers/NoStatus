@@ -1,0 +1,13 @@
+/**
+ * @name NoStatus
+ * @author egirlmilkers
+ * @version 1.0.0
+ * @description Hides the status indicators everywhere.
+ * @source https://github.com/egirlmilkers/NoStatus
+*/
+
+@import url('https://egirlmilkers.github.io/NoStatus/dist/NoStatus.css');
+
+:root {
+  /* no config lol */
+}
