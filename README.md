@@ -1,4 +1,4 @@
-# RadialStatus
+# NoStatus
 
 Hides the status indicators everywhere.
 
