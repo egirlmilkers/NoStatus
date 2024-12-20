@@ -1,0 +1,33 @@
+:root {
+	--ns-version: '1.0.0';
+}
+
+#app-mount {
+	/* Make the status dot show as invisible and also hide */
+	.pointerEvents_c51b4e{ 
+		display: none !important;
+		mask: url(#svg-mask-status-offline) !important;
+		fill: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%) !important;
+	}
+
+	/* Above hides the status dot, but this hides the typing dots */
+	.dots_ce0450 {
+		display: none !important;
+	}
+
+	/* Hide the filling of the status indicator */
+	.cursorDefault_c51b4e > rect{
+		display: none !important;
+	}
+
+	/* Make avatars appear as perfectly round (instead of having the status chunk cut out) */
+	.mask_c51b4e > foreignObject {
+		mask: url(#svg-mask-avatar-default) !important;
+	}
+
+	// Version info
+	.info_c5a741 .line_c5a741:last-child:after {
+		content: 'NoStatus ' var(--ns-version);
+		display: block;
+	}
+}

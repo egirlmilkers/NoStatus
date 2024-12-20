@@ -1,0 +1,20 @@
+{
+	"name": "nostatus",
+	"version": "1.0.0",
+	"description": "Hides the status indicators everywhere.",
+	"repository": "https://github.com/egirlmilkers/NoStatus.git",
+	"author": "egirlmilkers",
+	"license": "MIT",
+	"private": false,
+	"type": "module",
+	"scripts": {
+		"dev": "bd-scss dev",
+		"build": "bd-scss build"
+	},
+	"dependencies": {
+		"bd-scss": "^2.0.12"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.4"
+	}
+}

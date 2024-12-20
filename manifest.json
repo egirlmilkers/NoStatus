@@ -1,0 +1,9 @@
+{
+	"name": "NoStatus",
+	"description": "Hides the status indicators everywhere.",
+	"version": "1.0.0",
+	"author": "egirlmilkers",
+	"theme": "dist/NoStatus.theme.css",
+	"consent": ["ext_listing"],
+	"license": "MIT"
+}
